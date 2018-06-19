@@ -120,7 +120,7 @@ const ThirdStep = props => (
     <br></br>
     <Row>
     <button className="button-back"><NavLink to='/second'>Previous</NavLink></button> 
-  <button className="button-back"><NavLink to='/first'>Next</NavLink></button> 
+  <button className="button-back">Next</button> 
     </Row>
   </td>
     <PartnerInfo />

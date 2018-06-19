@@ -17,8 +17,8 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 
 const PartnerInfo = props => (
     <div>
-
-    <p className={{'justify-text':'left'}}>Partner's Share of Profit, Loss and Capital <span class="dot">?</span></p>
+      <br></br>
+    <p className={{'text-algin':'left'}}>Partner's Share of Profit, Loss and Capital <span class="dot">?</span></p>
       <div className="card">
       <Grid >
       <Row >

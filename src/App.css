@@ -7,12 +7,10 @@ html, {
   background-color: #eee; 
   color: dark-grey-blue;
   color: var(--dark-grey-blue);
-
   font-size: 12px !important;
 }
 .MuiRadio-colorPrimary-7.MuiRadio-checked-5 {
   color: #1cbacf !important;
- 
 }
 .MuiTypography-body1-44{
   background-color: white;
@@ -42,7 +40,7 @@ checkbox:after {
   border-right: 0px solid  #dbe3eb;
   border-bottom: 1px solid #dbe3eb;
   border-top: 1px solid #dbe3eb;
-  padding: 8px;
+  padding: 4px;
   align-self: center;
   justify-self: center;
 }
@@ -113,8 +111,9 @@ p {
   margin-bottom: 10px;
 }
 #buttons{
-  margin-left: 70%;
-  padding: 10px;
+  justify-content: right;
+  margin-left: 73%;
+  padding: 5px;
 }
 .main1 {
   width: 100%;

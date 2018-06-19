@@ -11,10 +11,9 @@ const Footer = props => (
     <Grid>
       <Row>
         <div id="buttons">
-          <Button className="active-button" size="medium" spacing={5}>
+          <Button className="active-button"  spacing={2}>
             SUBMIT
-          </Button>
-          <Button className="active-button" id="save-button" spacing={5}>
+          </Button> <Button className="active-button" id="save-button" spacing={2}>
             SAVE
           </Button>
         </div>

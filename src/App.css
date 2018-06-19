@@ -1,7 +1,7 @@
 body, .MuiTypography-body1-44 {
   font-size: 12px !important;
 }
-html, .MuiTypography-body1-44{
+html, {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background-color: #eee; 
@@ -12,6 +12,10 @@ html, .MuiTypography-body1-44{
 }
 .MuiRadio-colorPrimary-7.MuiRadio-checked-5 {
   color: #1cbacf !important;
+ 
+}
+.MuiTypography-body1-44{
+  background-color: white;
 }
 label{
   margin: 0px;

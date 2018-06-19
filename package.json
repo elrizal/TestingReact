@@ -1,0 +1,33 @@
+{
+  "name": "testingreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elrizal/TestingReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elrizal/TestingReact/issues"
+  },
+  "homepage": "https://github.com/elrizal/TestingReact#readme",
+  "dependencies": {
+    "@material-ui/core": "^1.2.2",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-prop-types": "^0.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.4",
+    "reactstrap": "^6.1.0",
+    "yarn": "^1.7.0"
+  }
+}

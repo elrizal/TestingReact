@@ -4,7 +4,7 @@ body, .MuiTypography-body1-44 {
 html, .MuiTypography-body1-44{
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF; 
+  background-color: #eee; 
   color: dark-grey-blue;
   color: var(--dark-grey-blue);
 
@@ -17,7 +17,6 @@ label{
   margin: 0px;
 }
 checkbox{
-
   display:inline-block;
   width: 22px;
   height:22px;
@@ -46,7 +45,6 @@ checkbox:after {
 .section-inner{
   border: none;
 }
-
 .undersec{
   padding-left: 0px;
 }
@@ -96,19 +94,16 @@ nav ul li {
   background-color: var(--dark-grey-blue);
   /* border: solid 0.5px #979797; */
 }
-
 nav ul li a {
   text-align: center;
   list-style-type: circle;
   color: black;
   text-decoration: none;
 }
-
 .current {
   text-align: center;
   border-bottom: 4px solid white;
 }
-
 p {
   text-align: center;
   margin-bottom: 10px;
@@ -119,7 +114,6 @@ p {
 }
 .main1 {
   width: 100%;
-
   background-color: #ffffff;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
 }

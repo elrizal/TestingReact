@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 .md-checkbox {
   position: relative;
-  margin: 16px 0;
+  margin: 14px 0;
   text-align: left;
 }
 .md-checkbox.md-checkbox-inline {
@@ -17,17 +17,17 @@
   top: 0;
 }
 .md-checkbox label:before {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background: #fff;
   border: 1.5px solid rgba(0, 0, 0, 0.54);
-  border-radius: 2px;
+  border-radius: 1px;
   cursor: pointer;
   transition: background .3s;
 }
 .md-checkbox input[type="checkbox"] {
   outline: 0;
-  margin-right: 10px;
+  margin-right: 6px;
   visibility: hidden;
 }
 .md-checkbox input[type="checkbox"]:checked + label:before {

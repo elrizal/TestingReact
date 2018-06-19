@@ -17,9 +17,8 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 
 const PartnerInfo = props => (
     <div>
-    <td>
-    <p className={{'justify-text':'left'}}>Partner's Share of Profit, Loss and Capital <span class="dot">?</span></p>
 
+    <p className={{'justify-text':'left'}}>Partner's Share of Profit, Loss and Capital <span class="dot">?</span></p>
       <div className="card">
       <Grid >
       <Row >
@@ -148,7 +147,7 @@ const PartnerInfo = props => (
      <Col xs={6} md={3}>
      <div className="md-checkbox">
         <input id="i4" type="checkbox" onChange={this.handleInputChange}/>
-        <label htmlFor="i4"> Section 704(b)</label>
+        <label htmlFor="i4">Sect.704(b)</label>
       </div>
 
      </Col>
@@ -158,24 +157,24 @@ const PartnerInfo = props => (
         <label htmlFor="i5">Other</label>
       </div>
      </Col>
+     </Row>
      <Row>
-    <Col xs={6} md={9}>
+    <Col xs={12} md={8}>
     Did this person contribute property with a built-in gain or loss?
     </Col>
-    <Col xs={6} md={3}>
+    <Col xs={12} md={4}>
     <div style={{ 'display': 'inline'}}>
     <div className="md-checkbox">
     <input id="i6" type="checkbox" onChange={this.handleInputChange}/>
-    <label htmlFor="i6">Yes</label>
-  </div><div className="md-checkbox"> <input id="i7" type="checkbox" onChange={this.handleInputChange}/>
+    <label htmlFor="i6">Yes</label></div><div className="md-checkbox"> <input id="i7" type="checkbox" onChange={this.handleInputChange}/>
         <label htmlFor="i7">No</label>
       </div>
     </div>
     </Col>
       </Row>
-      </Row>
+     
     </Grid>
-    </td>
+
 
 </div>
 )

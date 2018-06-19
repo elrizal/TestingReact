@@ -11,7 +11,6 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import Button from 'react-bootstrap/lib/Button';
 import { NavLink, Switch, Route } from 'react-router-dom';
-import Checkbox from '../Checkbox/Checkbox';
 import PartnerInfo from '../PartnerInfo/PartnerInfo';
 
 const ThirdStep = props => (
